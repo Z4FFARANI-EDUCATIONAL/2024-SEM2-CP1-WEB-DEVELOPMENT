@@ -20,12 +20,12 @@ O projeto Plataforma-Vídeos é uma aplicação web fictícia, desenvolvida para
 # INSTRUÇÕES
 1. Em um terminal, clonar o repositório:
 ```bash
-git clone https://github.com/Z4FFARANI-EDUCATIONAL/SEM2-CP1-WEB-DEVELOPMENT.git
+git clone https://github.com/Z4FFARANI-EDUCATIONAL/CP1-WEB-DEVELOPMENT.git
 ```
 
 2. No terminal, navegar até a pasta do projeto:
 ```bash
-cd SEM2-CP1-WEB-DEVELOPMENT/plataforma-videos
+cd CP1-WEB-DEVELOPMENT/plataforma-videos
 ```
 
 3. No terminal, instalar o pacote de módulos do Node.js:
