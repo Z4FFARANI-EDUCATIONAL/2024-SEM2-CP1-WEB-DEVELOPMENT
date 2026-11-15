@@ -1,81 +1,68 @@
-![Banner](./plataforma-videos/assets/banner.png)
+# Plataforma de Vídeos · Web Development
 
-# INTEGRANTES
-- **[Guilherme Santos Nunes](https://github.com/sannunez)**
-- **[Kaique Zaffarani](https://github.com/Z4ffarani)**
-- **[Kairo da Silva Silvestre de Carvalho](https://github.com/KairoSilvestre)**
-- **[Rafael Menezes Viana](https://github.com/vianafs)**
+| Integrante | RM |
+|---|---|
+| [Guilherme Santos Nunes](https://github.com/sannunez) | RM558989 |
+| [Kaique Zaffarani](https://github.com/Z4ffarani) | RM556677 |
+| [Kairo da Silva Silvestre de Carvalho](https://github.com/KairoSilvestre) | RM558288 |
+| [Rafael Menezes Viana](https://github.com/vianafs) | — |
 
-<br>
+Checkpoint 1 · 2024.2 · Engenharia de Software · FIAP
 
-# PROJETO
-O projeto Plataforma-Vídeos é uma aplicação web fictícia, desenvolvida para facilitar a criação e publicação de vídeos. Utilizando React.js e styled-components, o projeto inclui as páginas:
+---
+
+## Esta entrega: Web Development
+
+O projeto **Plataforma de Vídeos** é uma aplicação web fictícia, desenvolvida para facilitar a criação e publicação de vídeos. Utilizando React.js e styled-components, o projeto inclui as páginas:
 - **Home** | A página principal que introduz a plataforma e oferece um botão para começar a usar o serviço.
 - **Sobre** | Detalhes sobre a plataforma e os planos de assinatura disponíveis.
 - **Contato** | Formulário para dúvidas e suporte.
 - **Página 404** | Mostra uma mensagem quando uma página não é encontrada.
 
-<br>
+## Prévia
 
-# INSTRUÇÕES
-1. Em um terminal, clonar o repositório:
-```bash
-git clone https://github.com/Z4FFARANI-EDUCATIONAL/CP1-WEB-DEVELOPMENT.git
-```
+![prévia](./assets/preview.png)
 
-2. No terminal, navegar até a pasta do projeto:
-```bash
-cd CP1-WEB-DEVELOPMENT/plataforma-videos
-```
+## Como executar
 
-3. No terminal, instalar o pacote de módulos do Node.js:
 ```bash
+git clone https://github.com/Z4FFARANI-EDUCATIONAL/2024-SEM2-CP1-WEB-DEVELOPMENT.git
+cd 2024-SEM2-CP1-WEB-DEVELOPMENT/plataforma-videos
 npm install
-```
-
-4. Iniciar o servidor de desenvolvimento:
-```bash
 npm run dev
 ```
 
-5. Acessar o site no endereço: http://localhost:5173
+Depois, acesse o site em http://localhost:5173.
 
-<br>
+## Funções
 
-# FUNÇÕES
-`Header.jsx`:
-- Um componente estilizado que fornece navegação entre as páginas Home, Sobre e Contato.
+| Componente | O que faz |
+|---|---|
+| `Header.jsx` | Componente estilizado que fornece navegação entre as páginas Home, Sobre e Contato. |
+| `Home.jsx` | Exibe uma introdução ao serviço e oferece opções de criação de vídeos com links para plataformas populares. |
+| `Sobre.jsx` | Apresenta informações sobre a plataforma e planos de assinatura com botões para cadastro ou contato. |
+| `Contato.jsx` | Formulário para os usuários entrarem em contato com a equipe de suporte, com validação de comprimento da mensagem. |
+| `PageNotFound.jsx` | Mostra uma mensagem quando a página solicitada não é encontrada. |
 
-`Home.jsx`:
-- Exibe uma introdução ao serviço e oferece opções de criação de vídeos com links para plataformas populares.
+## Observações
 
-`Sobre.jsx`:
-- Apresenta informações sobre a plataforma e planos de assinatura com botões para cadastro ou contato.
-
-`Contato.jsx`:
-- Um formulário para os usuários entrarem em contato com a equipe de suporte. Inclui validação de comprimento da mensagem.
-
-`PageNotFound.jsx`:
-- Mostra uma mensagem quando a página solicitada não é encontrada.
-
-<br>
-
-# OBSERVAÇÕES
 - É necessária a instalação do Node.js para que o programa seja rodado.
-- Certificar de que o arquivo `index.html` está corretamente configurado para incluir os códigos de `main.jsx`.
-- Os estilos são aplicados através de arquivos CSS e componentes estilizados do styled-components. Assegure-se de que todos os arquivos de estilização estão corretamente importados.
+- Certifique-se de que o arquivo `index.html` está corretamente configurado para incluir os códigos de `main.jsx`.
+- Os estilos são aplicados através de arquivos CSS e componentes do styled-components. Assegure-se de que todos os arquivos de estilização estão corretamente importados.
 - O roteamento é gerenciado pelo react-router-dom, então deve-se adicionar novas rotas no arquivo `main.jsx` se necessário.
 
-<br>
+---
 
-# TECNOLOGIAS
-[![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev)
-[![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com)
-[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/source-code)
-[![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-router-dom)
+## Tecnologias
 
-<br>
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
+[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white)](https://react.dev)
+[![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=flat-square&logo=styledcomponents&logoColor=white)](https://styled-components.com)
+[![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com)
 
-# AGRADECIMENTOS
-- **[Caio Vinícius Gonçalves de Oliveira](https://github.com/caiooliveira-tech)**
+---
+
+## Agradecimentos
+
+- [Caio Vinícius Gonçalves de Oliveira](https://github.com/caiooliveira-tech)
